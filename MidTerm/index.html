@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Midterm</title>
+	<link rel="stylesheet" href="styles/main.css">
+	<script src="John'sPizza.js"></script>
+</head>
+<body>
+	<form id="form">
+	<h1>John's Pizza<h1><br>
+	<label class="label">No. Of Pizzas:</label>
+	<input id="pizza" type="number" name="pizza" value=""><br><br>
+	<label class="label">No. Of Toppings:</label>
+	<input id="topping" type="number" name="topping" value=""><br><br>
+	<label class="label">No. Of Sides:</label>
+	<input id="side" type="number" name="side" value=""><br><br>
+	<label class="check" for="delivery">Table Delivery</label>
+    <input type="checkbox" name="delivery" id="delivery" value="delivery"><br><br><br>
+	<input type="button" value="Generate Invoice" onclick="generate()"/>
+	
+	
+	<p id="invoice"></p>
+	
+</body>
+</html>
